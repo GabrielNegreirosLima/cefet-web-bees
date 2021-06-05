@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(
+        to bottom,
+        lightblue,
+        lightyellow,
+        lightgreen
+    );
+    font-size: 20px;
+    margin: 0% 15% 0% 15%;
+    height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+#logomarca {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.curiosidade {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f4a318;
+    border-radius: 10px;
+    padding: 10px;
+
+    background-image: url("imgs/favo-de-mel.png");
+}
+
+.curiosidade img{
+    float: left;
+    margin-right: 20px;
+}
